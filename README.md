@@ -1,12 +1,22 @@
-# DemGenerator
+# demgenerator
 
-This is a generator for satirical/ironic demotivational memes/images, it generates pictures like this:
+everybody knows what a demotivator is, the thing is that this script creates them from a source image and text using the terminal.
 
-![A picture of Tony Stark with captions Clearly you've never made an omlette](https://i.kym-cdn.com/photos/images/original/002/065/543/11a.png "clearly you've never made an omelette")
-![laugh at the image](https://i.kym-cdn.com/photos/images/original/001/549/062/157.jpg "LAUGH, LAUGH AT THE IMAGE")
+---
+## usage examples
 
-## Stuff
+the script should output the `output.png` to the folder with the script (for now, will fix later).  
+that means the script **must be** ran from the folder where it is located.
 
-The code for the image generation is taken from my closed-source project FlopperBot.
+__examples:__
 
-You can contact me through my Twitter or Discord which can be found over at [my website](https://clmty.xyz/)!
+- `python script.py image.png "honestly very"` - generates an image using "honestly very" as the top text  
+- `python script.py image.png "honestly very" incredible` - generates an image using "honestly very" as the top text and "incredible" as the bottom text  
+- `python script.py D:/otherimage.png very pog` - generates an image using the file from a path, "very" as the top text, and "pog" as the bottom text
+
+![honestly very incredible](https://pyt.igorek.dev/images/incredible.png)
+
+---
+## things
+
+i just got the script together in like 20 minutes at night, so sorry for any errors that might happen for now.
